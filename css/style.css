@@ -1,0 +1,79 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    margin-top: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px var(--purple) solid;
+}
+
+.instagram {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: var(--purple);
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.button {
+    text-decoration: none;
+    width: 326px;
+    padding: 15px 0;
+    border: 2px var(--purple) solid;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: var(--purple);
+}
+
+.button:hover {
+    transform: scale(105%);
+    transition: 300ms;
+}
+
+.button:active {
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+.container__social {
+    margin: 68px 0 200px 0;
+}
+
+.icon_social {
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon_social:hover {
+    transform: scale(120%);
+    transition: 300ms;
+}
